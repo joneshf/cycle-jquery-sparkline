@@ -2,26 +2,28 @@
   "name": "sparks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joneshf/cycle-jquery-sparkline.git"
+  },
+  "main": "cycle-sparkline.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Hardy Jones <jones3.hardy@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
+    "@cycle/core": "^5.0.1",
+    "@cycle/dom": "^7.1.1",
     "babel-loader": "^5.3.3",
+    "jsverify": "^0.7.1",
+    "rx": "^4.0.6",
+    "virtual-dom": "^2.1.1",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
-    "@cycle/core": "^5.0.1",
-    "@cycle/dom": "^7.1.1",
-    "babel": "^6.0.12",
     "jquery": "^2.1.4",
-    "jquery-sparkline": "^2.3.0",
-    "jsverify": "^0.7.1",
-    "rx": "^4.0.6",
-    "virtual-dom": "^2.1.1"
+    "jquery-sparkline": "^2.3.0"
   }
 }
