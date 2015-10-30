@@ -8,8 +8,10 @@ import {sparklineDriver} from './cycle-sparkline';
 
 function main({DOM, sparkline}) {
     const intent = Observable.interval(1000);
+
     const watline = sparkline('.wat');
     watline(intent.map(n => sampler(nat)(Math.min(60, n))));
+
     const wutline = sparkline('.wut', {
         chartRangeMin: 0,
         height: 100,
